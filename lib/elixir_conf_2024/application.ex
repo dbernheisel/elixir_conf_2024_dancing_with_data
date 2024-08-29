@@ -9,7 +9,7 @@ defmodule ElixirConf2024.Application do
   def start(_type, _args) do
     children = [
       ElixirConf2024Web.Telemetry,
-      ElixirConf2024.Repo,
+      # ElixirConf2024.Repo,
       {DNSCluster, query: Application.get_env(:elixir_conf_2024, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: ElixirConf2024.PubSub},
       # Start the Finch HTTP client for sending emails

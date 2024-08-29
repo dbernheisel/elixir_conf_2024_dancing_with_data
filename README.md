@@ -1,18 +1,11 @@
 # ElixirConf2024
 
-To start your Phoenix server:
+Fuller explanation here: https://bernheisel.com/blog/dancing-with-data
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+Files of interest:
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- lib/01-simple.ex
+- lib/02-with.ex
+- lib/03-token.ex
+- lib/elixir_conf_2024_web/live/stream_vs_enum_live.ex
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
